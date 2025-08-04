@@ -8,7 +8,7 @@ dir='levels' # dir for archived levels
 printf "\e[0;93mDatabase:\e[0m $db\n\n"
 
 # download levels from range
-for level in $(seq 130 133)
+for level in $(seq 1 512)
 do
 	printf "Downloading ID $level as GMD..."
 	if [ -e "$dir/$level" ]; then
