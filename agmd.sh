@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# Default configuration, Change these to what
+# you want.
 db='https://neopointfour.host/database'
-dir='test' # dir for archived levels
+dir='levels' # dir for archived levels
 
 printf "\e[0;93mDatabase:\e[0m $db\n\n"
 
