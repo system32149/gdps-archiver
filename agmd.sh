@@ -3,7 +3,7 @@
 # Default configuration, Change these to what
 # you want.
 db='https://neopointfour.host/database' # database link
-dir='lrvels' # directory for archived levels
+dir='levels' # directory for archived levels
 
 printf "\e[0;93mDatabase:\e[0m $db\n"
 printf "\e[0;93mDirectory for archived levels:\e[0m ./$dir\n\n"
