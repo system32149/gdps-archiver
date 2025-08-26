@@ -1,14 +1,14 @@
 # GDPS Level Archiver
 Archives GDPS levels to GMD format.
 
->[!NOTE]
->The GMD files use placeholders, such as level name.
-
 ## Usage
-Modify `agmd.sh` and set the range of levels to archive in the `for` loop, such as archiving level IDs 100 to 175.
+Modify `agmd.php` and set the levelID for the script to stop at in the `for` loop, and modifying the `$level` variable to configure the levelID to first archive.
 
-Modify the `$db` variable to the database link that you want, such as `http://neopointfour.host/datbase`.
+Modify the `$db` variable to the database link that you want, such as `http://neopointfour.host/database`.
 
 Make the directory shown in the `$dir` variable in the script, or optionally change the directory to whatever you want.
 
-The levels will be formatted as `${levelID}.gmd`, such as `163.gmd`.
+The levels will be formatted as `{level name} by {level creator} (ID {level ID}).gmd`, such as `Stereo Madness by Zhen (ID 1).gmd`.
+
+## License
+MIT License
